@@ -1,0 +1,87 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+.ColContainer {
+  display: table;
+  width: 100%;
+  height: 100vh;
+}
+
+.LeftCol {
+  margin: 500px;
+  display: table-cell;
+  background-color: bisque;
+  width: 15%;
+}
+
+.RightCol {
+  display: table-cell;
+  background-color: #d9dff0;
+  width: 85%;
+  outline-style: auto;
+  
+}
+
+.SignNature {
+  float: right;
+}
+
+.div1 {
+  display: inline;
+}
+
+.Title{
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 100px;
+  text-align: center;
+}
+
+.InputMid{
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 20px;
+}
+
+.CustomTextbox {
+  height: 36px;
+  border-radius: 1px;
+  background-color: blue;
+  box-shadow: inset 2.5px 4.3px 5px 0 rgba(1, 1, 1, 0.03);
+  border: solid 0.5px #C7CDD1;
+  font-weight: normal;
+  font-size: 20px;
+  border: 1px solid #ccc;
+  width: 100%;
+}
+
+.CustomForm{
+  display: block;
+  background-color: black;
+  width: 80%;
+}
+
+.Control{
+  box-sizing: border-box;
+  clear: both;
+  font-size: 1rem;
+  position: relative;
+  text-align: left;
+  width: 80%;
+}
+
+
+.Input{
+  -webkit-appearance: none;
+  align-items: center;
+  border: 1px solid transparent;
+  height: 2.25em;
+  justify-content: flex-start;
+  line-height: 1.5;
+  padding: calc(.375em - 1px) calc(.625em - 1px);
+  position: relative;
+  vertical-align: top;
+  box-shadow: inset 0 1px 2px rgba(10,10,10,.1);
+  max-width: 100%;
+  width: 100%;
+}

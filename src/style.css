@@ -1,0 +1,35 @@
+.App {
+    font-family: sans-serif;
+    text-align: center;
+  }
+  
+  .ColContainer {
+    display: table;
+    width: 100%;
+  }
+  
+  .LeftCol {
+    margin: 500px;
+    display: table-cell;
+    background-color: bisque;
+    width: 20%;
+  }
+  
+  .RightCol {
+    display: table-cell;
+    background-color: #d9dff0;
+    width: 80%;
+    outline-style: auto;
+  }
+  
+  .SignNature {
+    float: right;
+  }
+  
+  .Block {
+    outline-style: dotted;
+  }
+  .div1 {
+    display: inline;
+  }
+  
