@@ -18,6 +18,7 @@ class Form extends React.Component {
 		};
 		this.handleChange = this.handleChange.bind(this);
 		this.handleNewTodoAddition = this.handleNewTodoAddition.bind(this);
+    this.handleKeyPress = this.handleKeyPress.bind(this);
 	}
 	
 	handleChange(event) {
@@ -35,7 +36,13 @@ class Form extends React.Component {
 			this.input.placeholder = "Add todo here...";
 		}
 	}
-	
+  
+  handleKeyPress = (event) => {
+    if(event.key === 'Enter'){
+      this.handleNewTodoAddition()
+    }
+  }
+
 	render() {
 		return (
 			<div className="form">
@@ -48,7 +55,7 @@ class Form extends React.Component {
 					autocomplete="off"
 					onChange={this.handleChange}
           maxLength="50"
-          onKeyPress={this.handleNewTodoAddition}
+          onKeyPress={this.handleKeyPress}
 				/>
         <div>
 				<button 
