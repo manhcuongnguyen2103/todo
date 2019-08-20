@@ -50,12 +50,13 @@ class Form extends React.Component {
           maxLength="50"
           onKeyPress={this.handleNewTodoAddition}
 				/>
-
+        <div>
 				<button 
 					onClick={this.handleNewTodoAddition}
 				>	
-					+
+				Add Todo
 				</button>	
+        </div>
 			</div>
 		);
 	}
